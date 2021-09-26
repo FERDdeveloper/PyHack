@@ -14,7 +14,7 @@ class gui:
             class moi2:
                 x = 10,
                 y = 20,
-                modules.list = flight, chatsuffix
+                modules.list = flight, chatsuffix, scaffold
                 x_color: green
                 x_alpha: 2.1
                 y_clolor: black
@@ -30,7 +30,7 @@ class gui:
             class moi4:
                 x = 10,
                 y = 10,
-                modules.list = gui
+                modules.list = gui, hud, hudeditor
                 x_color: green
                 x_alpha: 2.1
                 y_clolor: black
