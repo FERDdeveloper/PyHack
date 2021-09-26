@@ -1,3 +1,6 @@
+from python.me.ferderplays.hacks.misc.autodupe import autodupe
+
+
 class gui:
     if held_keys["RSHIFT"]:
         def update():
@@ -14,7 +17,7 @@ class gui:
             class moi2:
                 x = 10,
                 y = 20,
-                modules.list = flight, chatsuffix, scaffold
+                modules.list = flight, chatsuffix, scaffold, autodupe
                 x_color: green
                 x_alpha: 2.1
                 y_clolor: black
